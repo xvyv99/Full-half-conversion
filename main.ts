@@ -29,6 +29,8 @@ export default class MyPlugin extends Plugin {
 					['？','?'],
 					['“','\"'],
 					['、',','],
+					['（','('],
+					['）',')'],
 				]);
     			// const sel = editor.getSelection()
 				const line_num = editor.lineCount(); 
